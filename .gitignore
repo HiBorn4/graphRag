@@ -1,0 +1,12 @@
+*__pycache__
+*markdowns
+*models
+*Output Data
+*outputs
+*static
+*tools
+*vectorstore
+*venv
+*.env
+*.md
+*.zip
