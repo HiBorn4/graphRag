@@ -1,0 +1,53 @@
+Stores and Spares -[HAS_SUB_INVENTORY]-> Inventory Oils, Grease & Chemicals
+Stores and Spares -[HAS_SUB_INVENTORY]-> Inventorie Consumable Stores & Misc.
+Stores and Spares -[HAS_SUB_INVENTORY]-> G-Stock Materiali Ricoperti CBN
+Stores and Spares -[HAS_SUB_INVENTORY]-> Stock in transit - Stores & Spares
+Stores and Spares -[HAS_SUB_INVENTORY]-> Inventory Stores- Manual Adj
+Stores and Spares -[HAS_SUB_INVENTORY]-> Inventory Packing Material
+
+Inventory Machinery Spares -[HAS_SUB_INVENTORY]-> Inventory Spares
+Inventory Machinery Spares -[HAS_SUB_INVENTORY]-> Inventory Manufactured Tools
+Inventory Machinery Spares -[HAS_SUB_INVENTORY]-> Inventory Spares- Manual Adj
+Inventory Machinery Spares -[HAS_SUB_INVENTORY]-> In Transit - Stores & Spares
+
+
+Tools -[HAS_SUB_INVENTORY]-> Inventory Tools
+Tools -[HAS_SUB_INVENTORY]-> Inventory Manufactured Tools
+Tools -[HAS_SUB_INVENTORY]-> Inventory Tools- Manual Adj
+Tools -[HAS_SUB_INVENTORY]-> Stock in transit - Tools
+Tools -[HAS_SUB_INVENTORY]-> Inventory Dies
+
+Other Inventory -[HAS_SUB_INVENTORY]-> Food & Beverages
+Other Inventory -[HAS_SUB_INVENTORY]-> Ind-AS  Inventories
+Other Inventory -[HAS_SUB_INVENTORY]-> Plant & Machinery Held For Sale
+
+
+
+---
+
+Question: “What factors contribute to the difference in Finished Goods for SWARAJ for 2023 and 2024?” Cypher:
+
+
+
+
+5. **Question:**
+“Which GroupCompany nodes have HAS_AMOUNT relationships to both 'Finished Goods' (Level2) and 'Clg Stock - Finished Goods - B/s' (Level4) within the same year, and list the relationship properties for the first overlapping year chronologically?”
+**Cypher:**
+
+
+6. **Question:**
+“For each GroupCompany in ['AS','MDS'], find all InventoryLevel3 nodes under 'Raw Material & Mfg. Componets' and the corresponding HAS_AMOUNT for year '2023', then also include any direct HAS_AMOUNT from the same companies to that InventoryLevel1 parent for comparative analysis.”
+**Cypher:**
+
+
+7. **Question:**
+“Retrieve all four levels of inventory (1→2→3→4) connected to 'Inventory Machinery Spares' for any company whose name starts with 'S', including every HAS_SUB_INVENTORY and HAS_AMOUNT relationship and filter the amount relationships to years 'FY22' to 'FY24'.”
+**Cypher:**
+
+1. **Question:**
+“For every GroupCompany, show all direct HAS_AMOUNT links to any InventoryLevel2 or InventoryLevel3 where the year is either '2021' or '2022', and include any parent InventoryLevel1 node that leads into those InventoryLevel2 nodes.”
+**Cypher:**
+
+2. **Question:**
+“Identify every InventoryLevel4 connected to 'Tools' via any depth of HAS_SUB_INVENTORY, then find all GroupCompany amount relationships to both the InventoryLevel2 'Tools' and each discovered InventoryLevel4, filtering to year '2023', and return every node and relationship property.”
+**Cypher:**

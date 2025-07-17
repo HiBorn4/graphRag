@@ -1,0 +1,38 @@
+KEY : 8h2JpHEBJHvmojEctGBJ8gYD6vnhY1uOS91tZbv7gTjmZEIgReJrJQQJ99BEACHYHv6XJ3w3AAAAACOGq94J
+ENDPOINT : https://enterpriseazur7236501531.services.ai.azure.com/
+
+gpt-4o-mini-tts
+deployement name : gpt-4o-mini-tts
+version : 2025-03-01-preview
+
+gpt-4o-mini-transcribe
+deployment name : gpt-4o-mini-transcribe
+version : 2025-03-01-preview
+
+gpt-4o-mini-realtime-preview
+deployment name : gpt-4o-mini-realtime-preview
+version : 2024-10-01-preview
+
+gpt 4o mini
+deployment name : gpt-4o-mini
+version : 2025-01-01-preview
+
+--------------   mazentsa  ----------------------
+
+
+ENDPOINT : https://eastus2.api.cognitive.microsoft.com/openai/deployments/gpt-4o-mini-tts/audio/speech?api-version=2025-03-01-preview
+KEY : ec422730783948c7be5874c8bf1c4781
+
+
+gpt-4o-mini-tts
+deployment name : gpt-4o-mini-tts
+version : 2025-03-01-preview
+gpt-4o-mini-transcribe
+deployment name : gpt-4o-mini-transcribe
+version : 2025-03-01-preview
+gpt-4o-mini-audio-preview
+deployment name : gpt-4o-mini-audio-preview
+version : 2025-01-01-preview
+gpt-4o-mini
+deployment name : gpt-4o-mini
+version : 2025-01-01-preview
