@@ -10,4 +10,4 @@
 *.env
 *.md
 *.zip
-company-azure-openai-api.txt
+*company-azure-openai-api.txt
